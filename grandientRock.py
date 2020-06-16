@@ -18,7 +18,7 @@ def Rosenbrock1(x):
 def main():
     lrate = 0.002
     a = np.array([-.5, .2])
-    epoch = 100000
+    epoch = 1000
     ai = []
     for i in range(epoch):
         f = ((1 - a[0]) ** 2) + (100 * ((a[1] - a[0] ** 2) ** 2))
